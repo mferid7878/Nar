@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+    background-color: #242424;
+    color: white;
+ }
+.lightred{
+    background-color: #d74364;
+}
+.lightredx2{
+    background-color: #dd5a79;
+}
+.lightgray1{
+background-color: #333132;
+}
+.lightgray2{
+    background-color: #58595c;
+}
+header h2{
+    padding: 10px;
+}
+.row{
+    display: flex;
+}
+.col-4{
+    width:calc(100%/12*4);
+    padding: 10px;
+}
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.card{
+    border-radius: 20px;
+}
+.cardheader{
+    border-radius: 20px;
+}
+.cardheader h3{
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.cardheader_prop{
+    margin: 0 auto;
+    max-width: 250px;
+   padding: 15px;
+}
+
+.price{
+    width: 100px;
+    font-size: 24px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+.price_wrapper{
+    font-size: 10px;
+ 
+}
+.cardmain-container {
+    max-width: 270px;
+    margin: 10px auto;
+  }
+  
+  .cardmain-type1row {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  
+  .value {
+    font-weight: bold;
+  }
+  
+  .progress-bar {
+    border-radius: 5px;
+    height: 5px;
+    margin-top: 5px;
+  }
+  .progress {
+    background-color: #ff4e6a;
+    height: 100%;
+    border-radius: 5px;
+  }
+  .usage1{
+    width: 79%;
+  }
+  .usage2{
+    width:59%;
+  }
+.cardmain_outcontainer{
+    margin-top: 30px;
+    height: 98px;
+}
+.cardmain-type2{
+    margin:10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.cardinput{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    border-radius: 20px;
+}
+.cardinput button{
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 10px 110px;
+    text-align: center;
+    text-decoration: none;
+}
